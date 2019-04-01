@@ -13,22 +13,22 @@ variable node_count {
   default = "1"
 }
 
-variable os {
+variable os_reference_code {
   type = "string"
   default = ""
 }
 
-variable vm_flavor {
+variable flavor_key_name {
   type = "string"
   default = ""
 }
 
-variable priv_vlan {
+variable private_vlan_id {
   type = "string"
   default = ""
 }
 
-variable pub_vlan {
+variable public_vlan_id {
   type = "string"
   default = ""
 }
