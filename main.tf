@@ -1,7 +1,3 @@
-data "ibm_compute_ssh_key" "deploymentKey" {
-  label = "ryan_tycho"
-}
-
 resource "random_id" "name" {
   byte_length = 4
 }
