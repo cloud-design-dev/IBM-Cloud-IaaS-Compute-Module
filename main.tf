@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-esource "random_id" "name" {
-=======
 resource "random_id" "name" {
->>>>>>> 4f6ad42e5e53d3dee57d5e19c9fcedd5d7b2e87d
   byte_length = 4
 }
 
 resource "ibm_compute_vm_instance" "node" {
-  count = "${var.node_count}"
-  hostname = "${var.hostname}-${count.index+1}"
+  count                = "${var.node_count}"
+  hostname             = "${var.hostname}-${count.index+1}"
   domain               = "${var.domain}"
   os_reference_code    = "${var.os_reference_code}"
   datacenter           = "${var.datacenter}"
