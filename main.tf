@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 esource "random_id" "name" {
+=======
+resource "random_id" "name" {
+>>>>>>> 4f6ad42e5e53d3dee57d5e19c9fcedd5d7b2e87d
   byte_length = 4
 }
 
