@@ -1,13 +1,10 @@
-data "ibm_compute_ssh_key" "deploymentKey" {
-  label = "ryan_tycho"
-}
-
-resource "random_id" "name" {
+esource "random_id" "name" {
   byte_length = 4
 }
 
 resource "ibm_compute_vm_instance" "node" {
-  hostname             = "${random_id.name.hex}-tf"
+  count = "${var.node_count}"
+  hostname = "${var.hostname}-${count.index+1}"
   domain               = "${var.domain}"
   os_reference_code    = "${var.os_reference_code}"
   datacenter           = "${var.datacenter}"
