@@ -33,6 +33,6 @@ variable public_vlan_id {
   default = ""
 }
 
-variable domainname {
+variable domain {
   default = "cdetesting.com"
 }
