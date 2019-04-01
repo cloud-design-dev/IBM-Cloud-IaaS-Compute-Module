@@ -1,8 +1,17 @@
-variable ibm_bx_api_key {}
+variable ibm_bx_api_key {
+  type    = "string"
+  default = ""
+}
 
-variable ibm_sl_username {}
+variable ibm_sl_username {
+  type    = "string"
+  default = ""
+}
 
-variable ibm_sl_api_key {}
+variable ibm_sl_api_key {
+  type    = "string"
+  default = ""
+}
 
 variable datacenter {
   type    = "string"
