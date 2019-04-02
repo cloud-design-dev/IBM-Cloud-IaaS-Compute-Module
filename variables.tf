@@ -52,7 +52,7 @@ variable hostname {
   default = ""
 }
 
-variable user_metatada {
+variable user_metadata {
   type = "string"
   default = ""
 }
