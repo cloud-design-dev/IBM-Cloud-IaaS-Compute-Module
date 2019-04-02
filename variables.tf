@@ -43,10 +43,16 @@ variable public_vlan_id {
 }
 
 variable domain {
-  default = "cdetesting.com"
+  type = "string"
+  default = ""
 }
 
 variable hostname {
   type    = "string"
+  default = ""
+}
+
+variable user_metatada {
+  type = "string"
   default = ""
 }
