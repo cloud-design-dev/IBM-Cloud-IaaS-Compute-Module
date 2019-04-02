@@ -11,6 +11,7 @@ resource "ibm_compute_vm_instance" "node" {
   network_speed        = 1000
   hourly_billing       = true
   private_network_only = false
+  user_metadata        = "${var.user_metadata}"
   flavor_key_name      = "${var.flavor_key_name}"
   disks                = [200]
   local_disk           = false
