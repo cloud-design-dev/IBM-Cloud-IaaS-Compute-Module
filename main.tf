@@ -1,8 +1,5 @@
-resource "random_id" "name" {
-  byte_length = 4
-}
-
 resource "ibm_compute_vm_instance" "node" {
+  transient = "${var.transient}"
   count                = "${var.node_count}"
   hostname             = "${var.hostname}-${count.index+1}"
   domain               = "${var.domain}"

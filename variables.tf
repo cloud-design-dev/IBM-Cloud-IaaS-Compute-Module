@@ -19,7 +19,7 @@ variable datacenter {
 }
 
 variable node_count {
-  default = "1"
+  default = "100"
 }
 
 variable os_reference_code {
