@@ -32,15 +32,15 @@ variable flavor_key_name {
   default = ""
 }
 
-variable private_vlan_id {
-  type    = "string"
-  default = ""
-}
+#variable private_vlan_id {
+#  type    = "string"
+#  default = ""
+#}
 
-variable public_vlan_id {
-  type    = "string"
-  default = ""
-}
+#variable public_vlan_id {
+#  type    = "string"
+#  default = ""
+#}
 
 variable domain {
   type = "string"
