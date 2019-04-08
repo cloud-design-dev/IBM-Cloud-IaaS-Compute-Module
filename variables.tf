@@ -61,3 +61,8 @@ variable transient {
   type = "string"
   default = ""
   }
+
+variable localdisk {
+ type = "string"
+  default = "true"
+  }
