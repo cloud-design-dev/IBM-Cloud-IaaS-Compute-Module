@@ -12,6 +12,6 @@ resource "ibm_compute_vm_instance" "node" {
   flavor_key_name      = "${var.flavor_key_name}"
   disks                = [200]
   local_disk           = false
-  public_vlan_id       = "${var.public_vlan_id}"
-  private_vlan_id      = "${var.private_vlan_id}"
+#  public_vlan_id       = "${var.public_vlan_id}"
+#  private_vlan_id      = "${var.private_vlan_id}"
 }
