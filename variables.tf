@@ -56,3 +56,8 @@ variable user_metadata {
   type = "string"
   default = ""
 }
+
+variable transient {
+  type = "string"
+  default = ""
+  }
