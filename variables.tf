@@ -67,3 +67,4 @@ variable localdisk {
   default = ""
 }
 
+variable file_storage_ids {}
