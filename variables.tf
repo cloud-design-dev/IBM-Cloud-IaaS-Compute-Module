@@ -43,7 +43,7 @@ variable flavor_key_name {
 #}
 
 variable domain {
-  type = "string"
+  type    = "string"
   default = ""
 }
 
@@ -53,20 +53,20 @@ variable hostname {
 }
 
 variable user_metadata {
-  type = "string"
+  type    = "string"
   default = ""
 }
 
 variable transient {
-  type = "string"
+  type    = "string"
   default = ""
-  }
+}
 
 variable localdisk {
- type = "string"
+  type    = "string"
   default = ""
-  }
+}
 
 variable disks {
   type = "string"
-  }
+}
