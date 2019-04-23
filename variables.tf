@@ -64,5 +64,17 @@ variable transient {
 
 variable localdisk {
  type = "string"
-  default = "true"
+  default = ""
+  }
+
+variable public_vlan_id {
+  type = "string"
+  }
+
+variable private_vlan_id {
+  type = "string"
+  }
+
+variable disks {
+  type = "array"
   }
