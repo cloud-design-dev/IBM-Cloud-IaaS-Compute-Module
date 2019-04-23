@@ -37,3 +37,7 @@ output "ibm_vm_public_interface_id" {
 output "ibm_vm_private_interface_id" {
   value = "${ibm_compute_vm_instance.node.*.private_interface_id}"
 }
+
+output "ibm_vm_fqdn" {
+  value = "${ibm_compute_vm_instance.node.*.hostname}.${var.domain}"
+}
