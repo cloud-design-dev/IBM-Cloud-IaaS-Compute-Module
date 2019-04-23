@@ -76,5 +76,5 @@ variable private_vlan_id {
   }
 
 variable disks {
-  type = "array"
+  type = "string"
   }
