@@ -67,14 +67,3 @@ variable localdisk {
   default = ""
   }
 
-variable public_vlan_id {
-  type = "string"
-  }
-
-variable private_vlan_id {
-  type = "string"
-  }
-
-variable disks {
-  type = "string"
-  }
