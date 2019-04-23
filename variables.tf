@@ -67,3 +67,6 @@ variable localdisk {
   default = ""
   }
 
+variable disks {
+  type = "string"
+  }
