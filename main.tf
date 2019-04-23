@@ -11,5 +11,4 @@ resource "ibm_compute_vm_instance" "node" {
   user_metadata        = "${var.user_metadata}"
   flavor_key_name      = "${var.flavor_key_name}"
   local_disk           = "${var.localdisk}"
-  file_storage_ids = ""
 }
