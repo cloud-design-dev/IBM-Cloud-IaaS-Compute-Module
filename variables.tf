@@ -3,7 +3,7 @@ variable iaas_classic_api_key {
   default = ""
 }
 
-variable iiaas_classic_username {
+variable iaas_classic_username {
   type    = "string"
   default = ""
 }
