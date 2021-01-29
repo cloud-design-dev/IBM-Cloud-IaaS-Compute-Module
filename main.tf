@@ -4,7 +4,7 @@ resource "ibm_compute_vm_instance" "node" {
   domain               = var.domain
   os_reference_code    = var.os_reference_code
   datacenter           = var.datacenter
-  network_speed        = 1000
+  network_speed        = var.network_speed
   hourly_billing       = true
   private_network_only = false
   user_metadata        = var.user_metadata
