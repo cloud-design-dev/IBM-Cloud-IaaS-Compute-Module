@@ -1,14 +1,9 @@
-variable ibm_bx_api_key {
+variable iaas_classic_api_key {
   type    = "string"
   default = ""
 }
 
-variable ibm_sl_username {
-  type    = "string"
-  default = ""
-}
-
-variable ibm_sl_api_key {
+variable iiaas_classic_username {
   type    = "string"
   default = ""
 }
@@ -16,10 +11,6 @@ variable ibm_sl_api_key {
 variable datacenter {
   type    = "string"
   default = ""
-}
-
-variable node_count {
-  default = "100"
 }
 
 variable os_reference_code {
