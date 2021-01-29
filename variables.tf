@@ -58,3 +58,6 @@ variable localdisk {
   default = ""
 }
 
+variable network_speed {
+  default = 1000
+}
