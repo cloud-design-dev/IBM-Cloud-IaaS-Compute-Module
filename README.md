@@ -1,5 +1,5 @@
 # IBM Cloud IaaS Compute Module
-Terraform module for deploying with IBM Cloud IaaS (SoftLayer_ compute instances 
+Terraform module for deploying with IBM Cloud IaaS (SoftLayer) compute instances 
 
 
 ## Usage
